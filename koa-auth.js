@@ -23,9 +23,11 @@ function init(options){
 
     function verifyToken(token){
         return new Promise((resolve, reject) => {
+            if(!token) return resolve(false);
+
             jwt.verify(token, secret, (err, decoded) => {
                 if(err){
-                    console.error(err.stack);
+                    console.warn(err.stack);
                     return resolve(false);
                 }
 
