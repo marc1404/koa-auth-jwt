@@ -12,5 +12,8 @@
   "bugs": {
     "url": "https://github.com/marc1404/koa-auth/issues"
   },
-  "homepage": "https://github.com/marc1404/koa-auth#readme"
+  "homepage": "https://github.com/marc1404/koa-auth#readme",
+  "dependencies": {
+    "jsonwebtoken": "^5.0.4"
+  }
 }
