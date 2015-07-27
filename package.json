@@ -1,0 +1,16 @@
+{
+  "name": "koa-auth",
+  "version": "0.0.1",
+  "description": "Koa auth middleware using JWT",
+  "main": "koa-auth.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marc1404/koa-auth.git"
+  },
+  "author": "Marc Vornetran",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/marc1404/koa-auth/issues"
+  },
+  "homepage": "https://github.com/marc1404/koa-auth#readme"
+}
