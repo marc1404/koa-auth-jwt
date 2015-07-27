@@ -6,7 +6,7 @@ function init(options){
     var secret = options.secret;
     var header = options.header || 'X-Auth-Token';
 
-    return auth();
+    return auth;
 
     function* auth(next){
         var token = this.request.get(header);
