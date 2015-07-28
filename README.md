@@ -1,2 +1,2 @@
 # koa-auth
-![https://david-dm.org/marc1404/koa-auth](https://david-dm.org/marc1404/koa-auth.svg)
+[![dependencies](https://david-dm.org/marc1404/koa-auth.svg)](https://david-dm.org/marc1404/koa-auth)
