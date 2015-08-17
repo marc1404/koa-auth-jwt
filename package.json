@@ -15,5 +15,10 @@
   "homepage": "https://github.com/marc1404/koa-auth#readme",
   "dependencies": {
     "jsonwebtoken": "^5.0.4"
-  }
+  },
+  "engines": {
+    "node": ">= 0.11.16",
+    "iojs": ">= 1.0.0"
+  },
+  "keywords": [ "koa", "auth", "middleware", "jwt", "token", "login" ]
 }
