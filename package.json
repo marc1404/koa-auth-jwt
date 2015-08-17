@@ -23,7 +23,7 @@
     "karma-jasmine": "^0.3.6"
   },
   "scripts": {
-    "test": "./node_modules/karma/bin/karma start"
+    "test": "./node_modules/karma/bin/karma start --single-run"
   },
   "engines": {
     "node": ">= 0.11.16",
