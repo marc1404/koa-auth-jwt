@@ -18,7 +18,6 @@ $ npm install koa-auth-jwt
   
 ## Usage
 ```javascript
-// ...  
 var auth = require('koa-auth-jwt');
   
 // register unsecured routes here  
@@ -34,6 +33,9 @@ app.use(auth({
 $ npm install -g mocha  
 $ mocha
 ```
-  
+
+## Author
+[marc1404](https://github.com/marc1404)
+
 ## License
 [MIT](https://github.com/marc1404/koa-auth-jwt/blob/master/LICENSE)
