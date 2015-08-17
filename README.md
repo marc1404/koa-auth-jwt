@@ -34,4 +34,4 @@ $ mocha
 ```
   
 ## License
-**MIT**
+[MIT](https://github.com/marc1404/koa-auth-jwt/blob/master/LICENSE)
