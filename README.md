@@ -1,12 +1,12 @@
 # koa-auth-jwt
 [![NPM](https://nodei.co/npm/koa-auth-jwt.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/koa-auth-jwt/)
   
-[![Build Status](https://travis-ci.org/marc1404/koa-auth.svg)](https://travis-ci.org/marc1404/koa-auth)
-[![Code Climate](https://codeclimate.com/github/marc1404/koa-auth/badges/gpa.svg)](https://codeclimate.com/github/marc1404/koa-auth)
-[![Test Coverage](https://codeclimate.com/github/marc1404/koa-auth/badges/coverage.svg)](https://codeclimate.com/github/marc1404/koa-auth/coverage)
+[![Build Status](https://travis-ci.org/marc1404/koa-auth-jwt.svg)](https://travis-ci.org/marc1404/koa-auth-jwt)
+[![Code Climate](https://codeclimate.com/github/marc1404/koa-auth-jwt/badges/gpa.svg)](https://codeclimate.com/github/marc1404/koa-auth-jwt)
+[![Test Coverage](https://codeclimate.com/github/marc1404/koa-auth-jwt/badges/coverage.svg)](https://codeclimate.com/github/marc1404/koa-auth-jwt/coverage)
   
-[![dependencies](https://david-dm.org/marc1404/koa-auth.svg)](https://david-dm.org/marc1404/koa-auth)
-[![dev-dependencies](https://david-dm.org/marc1404/koa-auth/dev-status.svg)](https://david-dm.org/marc1404/koa-auth#info=devDependencies)
+[![dependencies](https://david-dm.org/marc1404/koa-auth-jwt.svg)](https://david-dm.org/marc1404/koa-auth-jwt)
+[![dev-dependencies](https://david-dm.org/marc1404/koa-auth-jwt/dev-status.svg)](https://david-dm.org/marc1404/koa-auth-jwt#info=devDependencies)
   
 ## Installation
 ```
