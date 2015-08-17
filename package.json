@@ -22,7 +22,7 @@
     "should": "^7.0.4"
   },
   "scripts": {
-    "test": "node --harmony --harmony_arrow_functions node_modules/istanbul/lib/cli.js cover --hook-run-in-context --report lcovonly node_modules/mocha/bin/mocha"
+    "test": "node --harmony --harmony_arrow_functions node_modules/istanbul/lib/cli.js cover --hook-run-in-context --report lcovonly node_modules/mocha/bin/_mocha"
   },
   "engines": {
     "node": ">= 0.11.16",

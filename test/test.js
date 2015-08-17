@@ -1,14 +1,14 @@
 var should = require('should');
 var auth = require('../lib/koa-auth.js');
 
-describe('Array', function() {
-    describe('#indexOf()', function() {
-        it('should return -1 when the value is not present', function() {
-            var options = {
-                secret: 'shhh'
-            };
+describe('koa-auth', function() {
 
-            auth(options);
-        });
+    it('invoke factory', function() {
+        var options = {
+            secret: 'shhh'
+        };
+
+        auth(options);
     });
+
 });
