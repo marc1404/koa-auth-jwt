@@ -7,13 +7,13 @@
   
 ## Installation
 ```
-$ npm install koa-auth
+$ npm install koa-auth-jwt
 ```
   
 ## Usage
 ```javascript
 // ...  
-var auth = require('koa-auth');  
+var auth = require('koa-auth-jwt');
   
 app.use(auth({
 	secret: process.env.SECRET,
