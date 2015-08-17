@@ -1,6 +1,6 @@
 {
   "name": "koa-auth",
-  "version": "0.0.3",
+  "version": "0.0.1",
   "description": "Koa auth middleware using JWT",
   "main": "lib/koa-auth.js",
   "repository": {
