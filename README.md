@@ -4,3 +4,28 @@
 [![dev-dependencies](https://david-dm.org/marc1404/koa-auth/dev-status.svg)](https://david-dm.org/marc1404/koa-auth#info=devDependencies)
 [![Code Climate](https://codeclimate.com/github/marc1404/koa-auth/badges/gpa.svg)](https://codeclimate.com/github/marc1404/koa-auth)
 [![Test Coverage](https://codeclimate.com/github/marc1404/koa-auth/badges/coverage.svg)](https://codeclimate.com/github/marc1404/koa-auth/coverage)
+  
+## Installation
+```
+$ npm install koa-auth
+```
+  
+## Usage
+```javascript
+// ...  
+var auth = require('koa-auth');  
+  
+app.use(auth({
+	secret: process.env.SECRET,
+	token: 'X-Auth-Token' // optional
+});
+```
+  
+## Test
+```
+$ npm install -g mocha  
+$ mocha
+```
+  
+## License
+**MIT**
