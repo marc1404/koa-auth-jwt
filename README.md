@@ -21,10 +21,12 @@ $ npm install koa-auth-jwt
 // ...  
 var auth = require('koa-auth-jwt');
   
+// register unsecured routes here  
 app.use(auth({
 	secret: process.env.SECRET,
 	token: 'X-Auth-Token' // optional
 });
+// register secured routes here
 ```
   
 ## Test
