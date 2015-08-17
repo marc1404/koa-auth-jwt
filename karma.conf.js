@@ -1,5 +1,5 @@
 // Karma configuration
-// Generated on Mon Aug 17 2015 09:25:42 GMT+0200 (W. Europe Summer Time)
+// Generated on Mon Aug 17 2015 09:43:54 GMT+0200 (W. Europe Summer Time)
 
 module.exports = function(config) {
   config.set({
@@ -15,7 +15,7 @@ module.exports = function(config) {
 
     // list of files / patterns to load in the browser
     files: [
-      'test/**/*'
+      'test/**/*.js'
     ],
 
 
@@ -27,6 +27,7 @@ module.exports = function(config) {
     // preprocess matching files before serving them to the browser
     // available preprocessors: https://npmjs.org/browse/keyword/karma-preprocessor
     preprocessors: {
+        'lib/**/*.js': ['coverage']
     },
 
 
@@ -34,6 +35,12 @@ module.exports = function(config) {
     // possible values: 'dots', 'progress'
     // available reporters: https://npmjs.org/browse/keyword/karma-reporter
     reporters: ['progress'],
+
+
+    coverageReporter: {
+        type: 'lcovonly',
+        file: 'lcov.info'
+    },
 
 
     // web server port
