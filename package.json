@@ -1,18 +1,18 @@
 {
   "name": "koa-auth-jwt",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Koa auth middleware using JWT",
-  "main": "lib/koa-auth.js",
+  "main": "lib/koa-auth-jwt.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/marc1404/koa-auth.git"
+    "url": "git+https://github.com/marc1404/koa-auth-jwt.git"
   },
   "author": "Marc Vornetran",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/marc1404/koa-auth/issues"
+    "url": "https://github.com/marc1404/koa-auth-jwt/issues"
   },
-  "homepage": "https://github.com/marc1404/koa-auth#readme",
+  "homepage": "https://github.com/marc1404/koa-auth-jwt#readme",
   "dependencies": {
     "jsonwebtoken": "^5.0.4"
   },

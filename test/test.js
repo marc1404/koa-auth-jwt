@@ -1,5 +1,5 @@
 var should = require('should');
-var auth = require('../lib/koa-auth.js');
+var auth = require('../lib/koa-auth-jwt.js');
 
 describe('koa-auth', function() {
 
