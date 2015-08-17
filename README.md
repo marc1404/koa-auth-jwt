@@ -1,4 +1,4 @@
-# koa-auth
+# koa-auth-jwt
 [![NPM](https://nodei.co/npm/koa-auth-jwt.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/koa-auth-jwt/)
   
 [![Build Status](https://travis-ci.org/marc1404/koa-auth.svg)](https://travis-ci.org/marc1404/koa-auth)
