@@ -20,7 +20,7 @@
     "should": "^7.0.4"
   },
   "scripts": {
-    "test": "istanbul cover mocha --report lcovonly -- --harmony --harmony_arrow_functions"
+    "test": "istanbul cover mocha --hook-run-in-context --report lcovonly -- --harmony --harmony_arrow_functions"
   },
   "engines": {
     "node": ">= 0.11.16",
