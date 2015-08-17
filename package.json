@@ -16,9 +16,25 @@
   "dependencies": {
     "jsonwebtoken": "^5.0.4"
   },
+  "devDependencies": {
+    "jasmine-core": "^2.3.4",
+    "karma": "^0.13.9",
+    "karma-firefox-launcher": "^0.1.6",
+    "karma-jasmine": "^0.3.6"
+  },
+  "scripts": {
+    "test": "./node_modules/karma/bin/karma start"
+  },
   "engines": {
     "node": ">= 0.11.16",
     "iojs": ">= 1.0.0"
   },
-  "keywords": [ "koa", "auth", "middleware", "jwt", "token", "login" ]
+  "keywords": [
+    "koa",
+    "auth",
+    "middleware",
+    "jwt",
+    "token",
+    "login"
+  ]
 }
