@@ -2,7 +2,7 @@
   "name": "koa-auth",
   "version": "0.0.3",
   "description": "Koa auth middleware using JWT",
-  "main": "koa-auth.js",
+  "main": "lib/koa-auth.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/marc1404/koa-auth.git"
