@@ -17,10 +17,12 @@
     "jsonwebtoken": "^5.0.4"
   },
   "devDependencies": {
+    "istanbul": "^0.3.17",
+    "mocha": "^2.2.5",
     "should": "^7.0.4"
   },
   "scripts": {
-    "test": "istanbul cover mocha --hook-run-in-context --report lcovonly -- --harmony --harmony_arrow_functions"
+    "test": "node --harmony --harmony_arrow_functions node_modules/istanbul/lib/cli.js cover --hook-run-in-context --report lcovonly _mocha"
   },
   "engines": {
     "node": ">= 0.11.16",
