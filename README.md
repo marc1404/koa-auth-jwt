@@ -10,11 +10,11 @@
 [![David](https://img.shields.io/david/dev/marc1404/koa-auth-jwt.svg?style=flat-square)](https://github.com/marc1404/koa-auth-jwt/blob/master/package.json)
   
 ## Description
-Use in conjunction with [koa-login](https://www.npmjs.com/package/koa-login).
-This middleware can be used to secure routes in [koa](https://www.npmjs.com/package/koa).
-It will look for a [JSON Web Token (JWT)](https://www.npmjs.com/package/jsonwebtoken) inside the ```X-Auth-Token``` request header.
-If no token is present or it is invalid a http response code ```401 unauthorized``` will be sent back.
-Otherwise the [```this.state.user```](http://koajs.com/#context) object will be populated with the decoded data from the *jwt*.
+Use in conjunction with [koa-login](https://www.npmjs.com/package/koa-login).  
+This middleware can be used to secure routes in [koa](https://www.npmjs.com/package/koa).  
+It will look for a [JSON Web Token (JWT)](https://www.npmjs.com/package/jsonwebtoken) inside the ```X-Auth-Token``` request header.  
+If no token is present or it is invalid a http response code ```401 unauthorized``` will be sent back.  
+Otherwise the [```this.state.user```](http://koajs.com/#context) object will be populated with the decoded data from the *jwt*.  
 
 ## Installation
 ```
