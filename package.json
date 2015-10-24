@@ -1,6 +1,6 @@
 {
   "name": "koa-auth-jwt",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Koa auth middleware using JWT",
   "main": "lib/koa-auth-jwt.js",
   "repository": {
@@ -14,12 +14,12 @@
   },
   "homepage": "https://github.com/marc1404/koa-auth-jwt#readme",
   "dependencies": {
-    "jsonwebtoken": "^5.0.4"
+    "jsonwebtoken": "^5.4.0"
   },
   "devDependencies": {
-    "istanbul": "^0.3.17",
-    "mocha": "^2.2.5",
-    "should": "^7.0.4"
+    "istanbul": "^0.4.0",
+    "mocha": "^2.3.3",
+    "should": "^7.1.1"
   },
   "scripts": {
     "test": "node --harmony --harmony_arrow_functions node_modules/istanbul/lib/cli.js cover --hook-run-in-context --report lcovonly node_modules/mocha/bin/_mocha"
